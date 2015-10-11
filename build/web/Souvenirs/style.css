@@ -1,0 +1,69 @@
+body{
+    background-color: ghostwhite;
+}
+
+#alert{
+    position: relative;
+    font-family: fantasy;
+    color: crimson;
+}
+
+#view_producer_button{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+#add_producer_button{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+#view_souvenirs_button{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+
+#add_souvenirs_button{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+}
+
+#wrapper{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    margin: 5px;
+    padding: 10px;
+    background-color: indianred;
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+}
+
+#find_producer_name{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+#find_producer_country{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+}
+
+#find_souvenir_name{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+
+#find_souvenir_price{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+}

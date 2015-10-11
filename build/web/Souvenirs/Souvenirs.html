@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- saved from url=(0028)http://dmitry-pc:8080/JavaL/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <link rel="stylesheet" type="text/css" href="./Souvenirs_files/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="./Souvenirs_files/bootstrap-theme.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Souvenirs</title>
+    </head>
+    <body>
+        <h1 class="alert alert-info" align="center" id="alert">
+            Welcome to Souvenirs
+        </h1>
+            <div id="wrapper">
+                <a href="http://dmitry-pc:8080/JavaL/producer"><input type="button" value="View Producers" id="view_producer_button"></a>
+                <a href="http://dmitry-pc:8080/JavaL/producer/add"><input type="button" value="Add producer" id="add_producer_button"></a>
+                <a href="http://dmitry-pc:8080/JavaL/souvenir"><input type="button" value="View Souvenirs" id="view_souvenirs_button"></a>
+                <a href="http://dmitry-pc:8080/JavaL/souvenir/add"><input type="button" value="Add Souvenir" id="add_souvenirs_button"></a>
+
+                <form action="http://dmitry-pc:8080/JavaL/souvenir" id="find_producer_name">
+                    <select name="producerName" class="selectpicker btn-primary" data-live-search="”true”">
+                        <option value="any" selected="">any</option>
+                        <option value="2">2</option>
+
+                    </select>
+                    <input type="submit" value="Find by name">
+                </form>
+                <form action="http://dmitry-pc:8080/JavaL/souvenir" id="find_producer_country">
+                    <select name="producerCountry" class="selectpicker btn-primary">
+                        <option value="any" selected="">any</option>
+                        <option value="2">2</option>
+
+                    </select>
+                    <input type="submit" value="Find by country">
+                </form>
+                <form action="http://dmitry-pc:8080/JavaL/producer" id="find_souvenir_name">
+                    <select name="souvenirName" class="selectpicker btn-primary">
+
+                    </select>
+                    <input type="number" max="2015" min="1900" name="year">
+                    <input type="submit" value="Find by year">
+
+                </form>
+                <form id="find_souvenir_price">
+                    <input type="number" step="any" name="souvenirPrice" required="">
+                    <input type="submit" value="Find by price">
+                </form>
+            </div>
+
+</body></html>
